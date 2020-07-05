@@ -1,0 +1,25 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "test task",
+  "scripts": {
+    "test": "test",
+    "build": "gulp css",
+    "start": "gulp start"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.6.1",
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
+    "gulp-less": "^4.0.1",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "node-sass": "^4.14.1",
+    "plumber": "^0.4.8"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.0"
+  }
+}
